@@ -271,131 +271,15 @@
 
 # start SX05RE added options
 
-LIBRETRO_CORES="2048 \
-81 \
-a5200 \
-amiarcadia \
-arduous \
-atari800 \
-b2 \
-beetle-lynx \
-beetle-ngp \
-beetle-pce \
-beetle-pcfx \
-beetle-supergrafx \
-beetle-vb \
-beetle-wswan \
-bk \
-bluemsx \
-cannonball \
-cap32 \
-clownmdemu \
-daphne \
-dice \
-dinothawr \
-dosbox-svn \
-easyrpg \
-emuscv \
-ep128emu \
-exa-rs \
-fake_08 \
-fbalpha2012 \
-fbneo \
-fceumm \
-fceumm-mod \
-flycast \
-freechaf \
-freeintv \
-fuse-libretro \
-gambatte \
-gearboy \
-gearcoleco \
-geargrafx \
-gearlynx \
-gearsystem \
+LIBRETRO_CORES="fbneo \
 genesis-plus-gx \
-genesis_plus_gx_cart_special \
-genesis-plus-gx-wide \
-geolith \
-gme \
-gp32emu \
-gpsp \
-gw-libretro \
-handy \
-hatari \
-jaxe \
-jollycv \
-lowresnx \
-m2000 \
-mame2003-plus \
-mame2010 \
-meowpc98 \
 mgba \
-minivmac \
-mojozork \
-mrboom \
-mu \
-mupen64plus \
-native32emu \
-neocd_libretro \
-nestopia \
-numero \
-nxengine \
-o2em \
-opera \
-parallel-n64 \
 pcsx_rearmed \
-pd777 \
-picodrive \
-pocketcdg \
-pokemini \
-prboom \
-prosystem \
-puae \
-puae2021 \
-pzretro \
-px68k \
-reminiscence \
-sameboy \
-sameduck \
-scummvm \
-snes9x \
-snes9x2002 \
-snes9x2005_plus \
-snes9x2010 \
-spring \
-stella \
-supafaust \
-tgbdual \
-theodore \
-tic-80 \
-tyrquake \
-xrick \
-uae4arm \
-uzem \
-vba-next \
-vbam \
-vecx \
-vice \
-vircon32 \
-virtualxt \
-wasm4 \
-yabasanshiro"
+snes9x"
 
-LIBRETRO_EXTRA_CORES="chailove \
-crocods \
-desmume \
-desmume-2015 \
-lutro \
-melonds \
-snes9x2005 \
-yabause"
+LIBRETRO_EXTRA_CORES=""
 
-LIBRETRO_S922X_CORES="beetle-saturn \
-mesen \
-mesen-s \
-quicknes \
-virtualjaguar"
+LIBRETRO_S922X_CORES=""
 
   RA_PLAYLIST_NAMES=""\
 "Atari - 2600.lpl;"\
