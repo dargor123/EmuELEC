@@ -95,39 +95,11 @@
       ],
       "emulators": [
         {
-          "name": "AdvanceMame",
-          "cores": [
-            {
-              "name": "AdvanceMame"
-            }
-          ]
-        },
-        {
           "name": "libretro",
           "cores": [
             {
-              "name": "mame2003_plus",
+              "name": "fbneo",
               "default": true
-            },
-            {
-              "name": "mame2010"
-            },
-            {
-              "name": "fbneo"
-            },
-            {
-              "name": "fbalpha2012"
-            },
-            {
-              "name": "mame"
-            }
-          ]
-        },
-        {
-          "name": "FBNEOSA",
-          "cores": [
-            {
-              "name": "FbneoSA"
             }
           ]
         }
@@ -2193,15 +2165,6 @@
             {
               "name": "mgba",
               "default": true
-            },
-            {
-              "name": "gpsp"
-            },
-            {
-              "name": "vbam"
-            },
-            {
-              "name": "vba_next"
             }
           ]
         }
@@ -2498,21 +2461,6 @@
             {
               "name": "snes9x",
               "default": true
-            },
-            {
-              "name": "snes9x2010"
-            },
-            {
-              "name": "snes9x2002"
-            },
-            {
-              "name": "snes9x2005_plus"
-            },
-            {
-              "name": "mesen-s"
-            },
-            {
-              "name": "mednafen_supafaust"
             }
           ]
         }
@@ -3436,18 +3384,6 @@
             {
               "name": "genesis_plus_gx",
               "default": true
-            },
-            {
-              "name": "genesis_plus_gx_cart_special"
-            },
-			{
-              "name": "clownmdemu"
-            },
-            {
-              "name": "genesis_plus_gx_wide"
-            },
-            {
-              "name": "picodrive"
             }
           ]
         }
@@ -3934,12 +3870,6 @@
             {
               "name": "pcsx_rearmed_32b",
               "default": true
-            },
-            {
-              "name": "pcsx_rearmed"
-            },
-            {
-              "name": "swanstation"
             }
           ]
         },
