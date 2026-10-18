@@ -35,7 +35,7 @@ fi
 
 # These cores do not work, or are not needed on aarch64, this package needs cleanup :) 
 if [ "${ARCH}" == "aarch64" ]; then
-  for discore in quicknes parallel-n64 pcsx_rearmed; do
+  for discore in pcsx_rearmed; do
 		PKG_DEPENDS_TARGET=$(echo ${PKG_DEPENDS_TARGET} | sed "s|${discore}| |")
 	done
 
