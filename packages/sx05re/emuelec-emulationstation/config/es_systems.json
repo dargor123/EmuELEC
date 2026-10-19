@@ -3872,14 +3872,6 @@
               "default": true
             }
           ]
-        },
-        {
-          "name": "Duckstation",
-          "cores": [
-            {
-              "name": "duckstation"
-            }
-          ]
         }
       ]
     },
