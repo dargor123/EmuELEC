@@ -39,12 +39,7 @@ if [ "${ARCH}" == "aarch64" ]; then
 		PKG_DEPENDS_TARGET=$(echo ${PKG_DEPENDS_TARGET} | sed "s|${discore}| |")
 	done
 
-  PKG_DEPENDS_TARGET+=" lib32-essential \
-                        lib32-retroarch \
-                        emuelec-32bit-info \
-                        lib32-pcsx_rearmed \
-                        lib32-box86 \
-                        lib32-libusb"
+  PKG_DEPENDS_TARGET+=" "
 
   if [ "${DEVICE}" == "Amlogic-ng" ] || [ "${DEVICE}" == "Amlogic-no" ] || [ "${DEVICE}" == "RK356x" ] || [ "${DEVICE}" == "OdroidM1" ]; then
     PKG_DEPENDS_TARGET+=""

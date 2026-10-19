@@ -3868,11 +3868,8 @@
           "name": "libretro",
           "cores": [
             {
-              "name": "pcsx_rearmed_32b",
+              "name": "pcsx_rearmed",
               "default": true
-            },
-            {
-              "name": "pcsx_rearmed"
             }
           ]
         },
