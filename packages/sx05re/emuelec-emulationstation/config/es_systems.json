@@ -1887,26 +1887,6 @@
             {
               "name": "mupen64plus_next",
               "default": true
-            },
-            {
-              "name": "mupen64plus_next_alt"
-            },
-            {
-              "name": "mupen64plus_32b"
-            },
-            {
-              "name": "parallel_n64_32b"
-            }
-          ]
-        },
-        {
-          "name": "mupen64plussa",
-          "cores": [
-            {
-              "name": "rice"
-            },
-            {
-              "name": "glide64mk2"
             }
           ]
         }
