@@ -11,7 +11,7 @@ PKG_LONGDESC="EmuELEC Meta Package"
 PKG_TOOLCHAIN="manual"
 
 PKG_EXPERIMENTAL="" 
-PKG_EMUS="${LIBRETRO_CORES} pcsx_rearmed"
+PKG_EMUS="${LIBRETRO_CORES} mupen64plus-nx pcsx_rearmed"
 
 PKG_DEPENDS_TARGET+=" emuelec-tools ${PKG_EMUS} ${PKG_EXPERIMENTAL}"
 
